@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠️ Zero-Cost Tech Stack
+## Tech Stack
 
 | Layer | Technology | Free Tier Details |
 | :--- | :--- | :--- |
@@ -32,46 +32,8 @@
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Run Locally
-```bash
-# Clone or navigate to the directory
-cd homeward
-
-# Install dependencies
-npm.cmd install
-
-# Start local dev server
-npm.cmd run dev
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-### 2. Free 1-Click Deployment on Vercel (Zero Cost)
-
-1. Push this repository to your **GitHub** account.
-2. Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
-3. Import your GitHub repository.
-4. Click **Deploy**.
-5. Your website is instantly live at `https://your-app-name.vercel.app` with zero server bills!
-
----
-
-### 3. Production Supabase Setup (Optional)
-1. Create a free project on [supabase.com](https://supabase.com).
-2. Go to the **SQL Editor** in your Supabase dashboard.
-3. Paste and run the contents of [`supabase/schema.sql`](file:///c:/Users/aayus/Downloads/homeward/supabase/schema.sql).
-4. Add your Supabase credentials to `.env.local`:
-```env
-NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
-```
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 homeward/
